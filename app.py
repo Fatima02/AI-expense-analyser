@@ -13,14 +13,14 @@ from groq import Groq
 
 
 
-GROQ_API_KEY = os.getenv("GROQAPIKEY222")
+GROQAPIKEY222 = os.getenv("GROQAPIKEY222")
 
 # --------------------------
 # Initialize Groq client
 # --------------------------
-if not GROQ_API_KEY:
+if not GROQAPIKEY222:
     st.warning("⚠️ Please set your GROQ_API_KEY in Colab before running.")
-client = Groq(api_key=GROQ_API_KEY)
+client = Groq(api_key=GROQAPIKEY222)
 
 # --------------------------
 # Streamlit App Config
