@@ -1,0 +1,6 @@
+streamlit
+groq
+pandas
+matplotlib
+python-dotenv
+localtunnel
